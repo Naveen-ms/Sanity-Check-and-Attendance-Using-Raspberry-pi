@@ -11,6 +11,6 @@ buzzer will turn ON. And based on the faces trained and stored attendance in the
 Steps to run this Project:
 
 1. Mask_Train.py : Creates a neural network model built using MobileNetV2 as base model which predicts whether the person is wearing the mask or not, the trained model is then saved locally.
-2. saveing_faces.py : Program to capture face of the person so that it can trained.
+2. saving_faces.py : Program to capture face of the person so that it can trained.
 3. face_recognition : A convolution neural network model is trained with the saved faces.
 4. Final_program.py : This program consists of all the operations combined namely temperature check, ir_sensors ,mask_detction and face recognition. 
